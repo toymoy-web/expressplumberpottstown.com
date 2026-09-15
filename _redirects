@@ -1,0 +1,4 @@
+# Intentionally empty. See master build standards Section 12: adding
+# .html->clean-URL rules on top of Cloudflare's native routing causes
+# ERR_TOO_MANY_REDIRECTS loops. Do not add rules here without a genuine
+# cross-domain or legacy-path redirect need.
