@@ -156,6 +156,9 @@ footer a:hover{color:var(--navy)}
 .rel span{font-size:13.5px;color:var(--gray)}
 .zips{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 .zip,.zip-chip{background:#fff;border:1px solid var(--line);border-radius:100px;padding:6px 13px;font-weight:700;font-size:13px;color:var(--navy)}
+.hero-img{display:block;width:100%;height:clamp(220px,32vw,420px);object-fit:cover;border-radius:20px}
+.hero-img-wrap{max-width:1180px;margin:0 auto;padding:0 24px 44px}
+.featured-img{display:block;width:100%;height:clamp(200px,28vw,340px);object-fit:cover;border-radius:16px;margin:22px 0 8px}
 .localgrid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .local{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px}
 .local h3{font-size:17.5px;margin-bottom:5px}
@@ -183,7 +186,10 @@ footer a:hover{color:var(--navy)}
 .mapembed{max-width:1180px;margin:40px auto 0;padding:0 24px}
 .mapembed iframe{border-radius:16px}
 
-.socialrow{margin-top:10px;display:flex;gap:10px}
+.socialrow{margin-top:10px;display:flex;gap:10px;flex-wrap:wrap}
+.socialrow a{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:100px;background:var(--soft);border:1px solid var(--line);color:var(--navy);transition:background .15s,color .15s}
+.socialrow a:hover{background:var(--gold);border-color:var(--gold);color:var(--navy-d)}
+.socialrow svg{width:16px;height:16px;fill:currentColor}
 /* socialrow stays empty (data-pending-social-links) until M supplies URLs — Section 15c */
 
 @media(max-width:768px){
